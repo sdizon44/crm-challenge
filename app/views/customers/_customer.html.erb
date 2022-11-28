@@ -1,0 +1,29 @@
+<div class="column is-one-third">
+
+
+    <div class="card-image">
+      <figure class="image is-4by3">
+        <%= image_tag customer.image %>
+      </figure>
+    </div>
+
+  <div class="card ">
+    <div class="card-content">
+    <p class="title is-4">
+      <%= customer.full_name %>
+    </p>
+    <ul>
+      <li>
+        <strong>Phone Number:</strong> <%= customer.phone_number %>
+      </li>
+      <li>
+       <strong>Email Address:</strong> <%= customer.email_address %>
+      </li>
+      <li>
+        <strong>Notes:</strong> <%= customer.notes %>
+      </li>
+    </ul>
+    </div>
+  </div>
+</div>
+

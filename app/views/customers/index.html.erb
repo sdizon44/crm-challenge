@@ -1,0 +1,12 @@
+
+<p id="notice"><%= notice %></p>
+
+<% if @customers.size.zero? %>
+  <p>There are no customers found.</p>
+<% else %>
+<div class ="row">
+  <%= render @customers %>
+
+<% end %>
+</div>
+
